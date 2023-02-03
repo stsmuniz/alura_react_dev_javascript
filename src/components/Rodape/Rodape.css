@@ -1,0 +1,28 @@
+.rodape-pagina {
+    background-color: #6278F7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    padding: 72px 0;
+    background-image: url('/public/images/fundo.png');
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.rodape-pagina .container > div {
+    width: 33.333333%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape-pagina .container .social a {
+    padding-right: 32px;
+}
+
+.rodape-pagina .container .social a:last-child {
+    padding-right: 0;
+}
